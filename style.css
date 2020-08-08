@@ -1,0 +1,47 @@
+#pad1
+{
+    position: absolute;
+    left:0%;
+    top:300px;
+    width:30px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 10%;
+}
+#ball
+{
+    position: absolute;
+    left:800px;
+    top:355px;
+    width:40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+}
+#pad2
+{
+    position: absolute;
+    right:0%;
+    top:300px;
+    width:30px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 10%;
+}
+#score
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 4.5rem;
+    color: white;
+}
+body{
+    background-color: cadetblue;
+}
+#net
+{
+    border-left: 6px dotted white;
+    left:800px;
+    height: 100%;
+    position: fixed;
+}
